@@ -16,7 +16,11 @@ A simple React business card built for the Scrimba front-end developer path. Use
 - React
 - Vite
 
+## Resources
+
+- [Figma design](https://www.figma.com/design/4ctPLUvIn5b5Ep6YPOZWWd/Digital-Business-Card)
+
 ## Installation
 
 - `npm install`
-- `npm run dev`
+- `npm run dev` for local server or `npm run build`

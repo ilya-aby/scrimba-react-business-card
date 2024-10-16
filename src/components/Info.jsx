@@ -1,5 +1,5 @@
-import profilePic from './assets/profile-pic.jpg';
-import mailIcon from './assets/mail-icon.png';
+import profilePic from '../assets/profile-pic.jpg';
+import mailIcon from '../assets/mail-icon.png';
 
 export default function Info() {
 
