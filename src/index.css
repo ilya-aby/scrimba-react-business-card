@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  background-color: #23252C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+}
+
+img {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.container {
+  background-color: #1A1B21;
+  width: 317px;
+  height: 780px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-container h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 21px;
+  margin-bottom: 0;
+}
+
+.info-container h2 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #F3BF99;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.info-container h3 {
+  font-size: 0.64rem;
+  font-weight: 400;
+  margin-top: 8px;
+  color: #F5F5F5;
+  margin-bottom: 0;
+}
+
+.info-container a {
+  text-decoration: none;
+}
+
+.info-container button {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 12px;
+  margin-top: 14px;
+  margin: 14px 35px 0px 35px;
+  width: 247px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: inherit;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.info-container button img {
+  width: 16px;
+  height: 16px;
+}
+
+.about-container, .interests-container {
+  margin: 0px 35px;
+}
+
+.about-container h2, .interests-container h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #F5F5F5;
+  margin-bottom: 0px;
+}
+
+.about-container p, .interests-container p {
+  font-size: 0.64rem;
+  font-weight: 400;
+  color: #DCDCDC;
+  line-height: 1rem;
+  margin-top: 5px;
+}
+
+.footer-container {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 24px;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+}
+
+.footer-container img {
+  width: 25px;
+  height: 25px;
+  color: #918E9B;
+  cursor: pointer;
+  border-radius: 0;
+}
